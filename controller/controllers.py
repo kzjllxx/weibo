@@ -264,7 +264,7 @@ class WordDifferenceController(object):
                 except Exception as e:
                     print e
 
-            # 写数据
+
             # 男性
             url = file_path + "\male_all_word_count.txt"
             with codecs.open(url, "w", "utf-8") as f:
